@@ -6,11 +6,11 @@
 
 :root{
     --text-color: white;
-    --bg-url: url(../imgs/bg-mobile.jpg);
+    --bg-url: url(imgs/bg-mobile.jpg);
     --Back-padrao: rgba(255, 255, 255, 0.1);
     --Borda-padrao: 1px solid rgba(255, 255, 255, 0.5);
     --botzin:rgba(255, 255, 255, 0.299);
-    --back-bot: url(../imgs/MoonStars.svg);
+    --back-bot: url(imgs/MoonStars.svg);
 }
 
 .light{
@@ -19,7 +19,7 @@
     --Back-padrao: rgba(255, 255, 255, 0.277);
     --Borda-padrao: 1px solid rgba(255, 255, 255, 0.5);
     --botzin: rgba(255, 255, 255, 0.766);
-    --back-bot: url(../imgs/Sun.svg);
+    --back-bot: url(imgs/Sun.svg);
     
 }
 
@@ -54,13 +54,13 @@
     background-size: 60%;
     transition: left 0.3s ease;
 
-     background-image: url(../imgs/Sun.svg);
+     background-image: url(imgs/Sun.svg);
 }
 
 
 #toggle-span.light #lua {
     left: 32px;        
-     background-image: url(../imgs/MoonStars.svg);
+     background-image: url(imgs/MoonStars.svg);
 }
 
 
