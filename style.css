@@ -38,14 +38,17 @@
     cursor: pointer;
     padding: 4px;            
 }
+#lua:hover{
+    outline: 8px solid var(--Back-padrao)
+}
 
 #lua {
     position: absolute;
     top: 50%;               
     left: 0;                 
     transform: translate(0, -50%);
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
     background-color: white;
     border-radius: 50%;
     background-image: var(--back-bot);
@@ -55,6 +58,8 @@
     transition: left 0.3s ease;
 
      background-image: url(imgs/Sun.svg);
+
+     animation: animacao2 0.2s;
 }
 
 
@@ -148,4 +153,19 @@ footer{
     text-align: center;
     color: var(--text-color);
     font-weight: 500;
+}
+
+button{
+    animation: animacao 0.4s forwards;
+}
+
+@keyframes animacao1{
+    from{left:0}
+    to{left:50%}
+    
+}
+
+@keyframes animcao2{
+    from{left:50%}
+    to{left:0}
 }
